@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<color>
+  <red value="rgb(255,0,0)"/>
+  <green value="rgb(0,255,0)"/>
+  <blue value="rgb(0,0,255)"/>
+  <white value="rgb(255,255,255)"/>
+  <gray value="#808080"/>
+  <cfg_tab value="rgba(255,255,255,204)"/>
+  <cfg value="rgba(255,255,255,153)"/>
+  <combobox_bg value="rgba(0,0,0,51)" />
+  <score_title value="rgba(138,180,228,127)" />
+  <score_body value="rgb(155,192,221)" />
+  <score_body_bg_odd value="rgba(48,64,79,127)" />
+  <score_body_bg_even value="rgba(48,64,79,63)" />
+  <score_local_title value="rgba(16,18,20,153)" />
+  <score_local_body_bg_odd value="rgba(69,50,32,127)" />
+  <score_local_body_bg_even value="rgba(69,50,32,63)" />
+  <score_local_body value="rgb(211,189,155)" />
+</color> 
+ 

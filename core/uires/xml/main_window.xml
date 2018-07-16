@@ -1,0 +1,14 @@
+﻿<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="960" height="725" wndType="1" appWnd="1" translucent="1">
+  <root colorBkgnd="rgba(0,0,0,0)">
+    <window pos="5,3,-5,-7" colorBkgnd="#151e27">
+      <caption pos="0,0,-0,39">
+        <imgbtn name="btn_min" skin="_skin.sys.mini.btn" pos="-50,14" animate="1" />
+        <imgbtn name="btn_close" skin="_skin.sys.close.btn" pos="-25,14" animate="1"/>
+      </caption>
+
+      <window pos="0,[0,-0,-0">
+        <webview name="main_web" pos="0,0,-0,-0" url="http://www.duowan.com/" />
+      </window>
+    </window>
+  </root>
+</SOUI>

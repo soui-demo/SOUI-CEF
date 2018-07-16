@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<skin>
+  <imglist name="_skin.sys.close.btn" src="png:system_btn_close" states="3" />
+  <imglist name="_skin.sys.mini.btn" src="png:system_btn_min" states="3" />
+</skin>
