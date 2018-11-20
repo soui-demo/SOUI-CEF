@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "main_context_impl.h"
 #include "include/cef_parser.h"
 #include <direct.h>

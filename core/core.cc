@@ -127,10 +127,12 @@ protected:
 
 		//加载系统资源
 		{
+			HMODULE hMod = LoadLibrary(_T("soui-sys-resource.dll"));
 			CAutoRefPtr<IResProvider> sysResProvider;
 			CreateResProvider(RES_PE, (IObjRef**) &sysResProvider);
-			sysResProvider->Init((WPARAM) hInstance, 0);
+			sysResProvider->Init((WPARAM)hMod, 0);
 			app_->LoadSystemNamedResource(sysResProvider);
+			FreeLibrary(hMod);
 		}
 
 		//加载盒子资源
